@@ -7,7 +7,7 @@ import CardsPage from './routes/LandingPage';
 import ProfilePage from './routes/LandingPage';
 import './App.css';
 
-cexport default class App extends Component {
+export default class App extends Component {
   state = { hasError: false}
 
   static getDerivedStateFromError(error) {

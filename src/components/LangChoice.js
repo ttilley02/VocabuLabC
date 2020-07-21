@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Route from "react-router-dom";
-import Langitems from "./LangSelection";
+import {Route} from "react-router-dom";
+import Langitems from "./LangItems";
 
 export default class LangChoice extends Component {
   render() {
